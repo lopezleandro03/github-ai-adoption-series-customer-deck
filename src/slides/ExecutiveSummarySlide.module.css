@@ -1,0 +1,176 @@
+.execSummary {
+  background: var(--bg-deep);
+  flex-direction: column;
+  padding: 0 0 44px 0;
+}
+
+/* ── Orbs ── */
+.orb1 {
+  width: 500px; height: 500px;
+  top: -160px; right: -100px;
+  background: radial-gradient(circle at 40% 40%, var(--accent), var(--blue-glow) 50%, transparent 70%);
+}
+.orb2 {
+  width: 360px; height: 360px;
+  bottom: -60px; left: -80px;
+  background: radial-gradient(circle at 50% 50%, var(--purple-deep), rgba(110,64,201,0.2) 60%, transparent 75%);
+}
+.orb3 {
+  width: 280px; height: 280px;
+  bottom: 60px; right: 200px;
+  background: radial-gradient(circle at 50% 50%, rgba(86,212,221,0.15), transparent 70%);
+}
+
+/* ── Body ── */
+.body {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-height: 0;
+  gap: 32px;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.badge {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(88,166,255,0.1);
+  border: 1px solid rgba(88,166,255,0.2);
+  border-radius: 20px;
+  padding: 5px 14px;
+}
+
+.title {
+  font-size: clamp(28px, 3.2vw, 36px);
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  color: var(--text);
+  margin: 0;
+}
+.sectionSubtitle {
+  font-size: clamp(18px, 2.2vw, 22px);
+  font-weight: 400;
+  color: var(--text-muted);
+  margin: 0;
+}
+.sectionSubtitle span {
+  background: linear-gradient(135deg, var(--accent), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0;
+}
+
+/* ── Pillar cards ── */
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 240px));
+  gap: 20px;
+  justify-content: center;
+}
+
+.pillar {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.pillar:hover {
+  transform: translateY(-2px);
+}
+
+.pillarGlow {
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  opacity: 0.7;
+}
+.pillarAccent .pillarGlow { background: linear-gradient(90deg, var(--accent), var(--blue-glow)); }
+.pillarPurple .pillarGlow { background: linear-gradient(90deg, var(--purple), var(--purple-deep)); }
+.pillarGreen .pillarGlow  { background: linear-gradient(90deg, var(--green), var(--cyan)); }
+.pillarCyan .pillarGlow   { background: linear-gradient(90deg, var(--cyan), var(--accent)); }
+.pillarPink .pillarGlow   { background: linear-gradient(90deg, var(--pink), var(--purple)); }
+
+.pillarAccent:hover { border-color: rgba(88,166,255,0.4); }
+.pillarPurple:hover { border-color: rgba(188,140,255,0.4); }
+.pillarGreen:hover  { border-color: rgba(63,185,80,0.4); }
+.pillarCyan:hover   { border-color: rgba(86,212,221,0.4); }
+.pillarPink:hover   { border-color: rgba(247,120,186,0.4); }
+
+.pillarIcon {
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconAccent { background: rgba(88,166,255,0.12); color: var(--accent); }
+.iconPurple { background: rgba(188,140,255,0.12); color: var(--purple); }
+.iconGreen  { background: rgba(63,185,80,0.12);   color: var(--green); }
+.iconCyan   { background: rgba(86,212,221,0.12);   color: var(--cyan); }
+.iconPink   { background: rgba(247,120,186,0.12);  color: var(--pink); }
+
+.pillarTitle {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--text);
+  margin: 0;
+}
+
+.pillarDesc {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ── Bottom CTA bar ── */
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(88,166,255,0.06);
+  border: 1px solid rgba(88,166,255,0.15);
+  border-radius: 12px;
+  padding: 14px 22px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.2px;
+}
+
+.ctaIcon {
+  font-size: 18px;
+  color: var(--accent);
+  font-weight: 700;
+}
