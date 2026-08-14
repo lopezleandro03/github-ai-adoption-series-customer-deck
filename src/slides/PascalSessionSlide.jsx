@@ -22,26 +22,29 @@ export default function PascalSessionSlide({ index, project }) {
             </p>
 
             <p className={styles.description}>
-              In this session I will show you how Spec-Driven Development (SDD) combined with GitHub Copilot custom agents, skills, prompts, and MCP servers creates a repeatable, intelligent development template, embedding corporate Platform Engineering practices. Whether you are modernizing a 2.8 million line legacy codebase or spinning up a green-field microservice, the approach is the same: write the spec, let the agents build.
+              In this session I will show you how Spec-Driven Development (SDD) combined with GitHub Copilot custom agents, skills, prompts, and MCP servers creates a repeatable, intelligent agentic development template, embedding corporate Platform Engineering practices. Whether you are modernizing a 2.8 million line legacy codebase or spinning up a green-field microservice, the approach is the same: write the spec, let the agents build.
             </p>
 
             <p className={styles.description}>
-              I will walk through real-world scenarios — from brown-field app modernization on Azure to green-field API development — showing how custom agents collaborate like a dev team: one writes the spec, another scaffolds the code, another reviews, and another validates against the original requirements. You will see how MCP servers ground agents in your organization's standards and how custom skills keep your patterns consistent across repos.
+              I will walk through real-world scenarios — from brown-field app modernization to green-field API development — showing how custom agents collaborate like a dev team: one writes the spec, another scaffolds the code, another reviews, and another validates against the original requirements. You will see how MCP servers ground agents in your organization's standards and how custom skills keep your patterns consistent across repos.
             </p>
 
             <div className={styles.keySkills}>
               <span className={styles.keySkillsLabel}>Agentic Skills to Show & Tell</span>
               <div className={styles.badges}>
-                <span className={styles.skillBadge}>Custom Agents & Skills</span>
+                <span className={styles.skillBadge}>Custom Agents</span>
+                <span className={styles.skillBadge}>Skills</span>
                 <span className={styles.skillBadge}>Spec-Driven Development</span>
-                <span className={styles.skillBadge}>MCP Server Integration</span>
+                <span className={styles.skillBadge}>MCP</span>
               </div>
             </div>
 
             <div className={styles.prerequisites}>
               <span className={styles.prerequisitesLabel}>Pre-requisites</span>
               <div className={styles.badges}>
-                <span className={styles.prereqBadge}>GitHub Copilot</span>
+                <span className={styles.prereqBadge}>GitHub Copilot Chat in VSCode</span>
+                <span className={styles.prereqBadge}>GitHub Copilot CLI</span>
+                <span className={styles.prereqBadge}>GitHub Copilot Desktop App</span>
               </div>
             </div>
           </div>

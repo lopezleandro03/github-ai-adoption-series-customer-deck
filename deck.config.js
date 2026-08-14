@@ -6,7 +6,9 @@ import Composed_AntonSessionSlide from './src/slides/AntonSessionSlide.jsx'
 import Composed_GeraldSessionSlide from './src/slides/GeraldSessionSlide.jsx'
 import Composed_CarlosSessionSlide from './src/slides/CarlosSessionSlide.jsx'
 import Composed_PascalSessionSlide from './src/slides/PascalSessionSlide.jsx'
-import Composed_AlessandraSessionSlide from './src/slides/AlessandraSessionSlide.jsx'
+import Composed_AliSessionSlide from './src/slides/AliSessionSlide.jsx'
+import Composed_EmileSessionSlide from './src/slides/EmileSessionSlide.jsx'
+import Composed_JoranSessionSlide from './src/slides/JoranSessionSlide.jsx'
 import Composed_CustomerGoalsSlide from './src/slides/CustomerGoalsSlide.jsx'
 import Composed_ApproachSlide from './src/slides/ApproachSlide.jsx'
 import Composed_CustomerCommitmentSlide from './src/slides/CustomerCommitmentSlide.jsx'
@@ -30,12 +32,14 @@ export default {
     Composed_CustomerNextStepsSlide,
     Composed_SessionSummarySlide,
     Composed_AgenticMuscleSlide,
+    Composed_AliSessionSlide,
     Composed_KarolSessionSlide,
+    Composed_AntonSessionSlide,
     Composed_GeraldSessionSlide,
     Composed_CarlosSessionSlide,
     Composed_PascalSessionSlide,
-    Composed_AntonSessionSlide,
-    Composed_AlessandraSessionSlide,
+    Composed_EmileSessionSlide,
+    Composed_JoranSessionSlide,
     ThankYouSlide,
   ],
 }

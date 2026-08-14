@@ -6,7 +6,7 @@ const steps = [
   'Commit to the Adoption Series',
   'Nominate owner and start planning',
   'Confirm audience and cadence via our self-service portal',
-  'Kick off the pilot',
+  'Kick off the series',
 ]
 
 export default function CustomerNextStepsSlide({ index }) {

@@ -199,35 +199,12 @@
   letter-spacing: 0.2px;
 }
 
-.supportedBy {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: center;
-  margin-top: 20px;
+.speakerBio {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 20px 0 0 0;
   padding-top: 20px;
   border-top: 1px solid var(--border);
-}
-
-.supportPhoto {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--purple);
-}
-
-.supportedByLabel {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.supportedByName {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--purple);
   letter-spacing: 0.1px;
 }
