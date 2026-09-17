@@ -7,8 +7,11 @@ import Composed_GeraldSessionSlide from './src/slides/GeraldSessionSlide.jsx'
 import Composed_CarlosSessionSlide from './src/slides/CarlosSessionSlide.jsx'
 import Composed_PascalSessionSlide from './src/slides/PascalSessionSlide.jsx'
 import Composed_AliSessionSlide from './src/slides/AliSessionSlide.jsx'
-import Composed_EmileSessionSlide from './src/slides/EmileSessionSlide.jsx'
 import Composed_JoranSessionSlide from './src/slides/JoranSessionSlide.jsx'
+import Composed_GabrielaSessionSlide from './src/slides/GabrielaSessionSlide.jsx'
+import Composed_TyroneSessionSlide from './src/slides/TyroneSessionSlide.jsx'
+import Composed_RickAgenticWorkflowsSlide from './src/slides/RickAgenticWorkflowsSlide.jsx'
+import Composed_RickCliSessionSlide from './src/slides/RickCliSessionSlide.jsx'
 import Composed_CustomerGoalsSlide from './src/slides/CustomerGoalsSlide.jsx'
 import Composed_ApproachSlide from './src/slides/ApproachSlide.jsx'
 import Composed_CustomerCommitmentSlide from './src/slides/CustomerCommitmentSlide.jsx'
@@ -38,8 +41,11 @@ export default {
     Composed_GeraldSessionSlide,
     Composed_CarlosSessionSlide,
     Composed_PascalSessionSlide,
-    Composed_EmileSessionSlide,
     Composed_JoranSessionSlide,
+    Composed_GabrielaSessionSlide,
+    Composed_TyroneSessionSlide,
+    Composed_RickAgenticWorkflowsSlide,
+    Composed_RickCliSessionSlide,
     ThankYouSlide,
   ],
 }
