@@ -10,7 +10,7 @@ import photoCarlos from './deck-project-ghcp-runbook-copy-2/data/speakers/Carlos
 import photoPascal from './deck-project-ghcp-runbook-copy-2/data/speakers/Pascal.png'
 import photoJoran from './deck-project-ghcp-runbook-copy-2/data/speakers/Joran.png'
 import photoTyrone from './deck-project-ghcp-runbook-copy-2/data/speakers/Tyrone.jpg'
-import photoRick from './deck-project-ghcp-runbook-copy-2/data/speakers/Rick.png'
+import photoRick from './deck-project-ghcp-runbook-copy-2/data/speakers/RickVdB.jpg'
 
 const sessions = [
   { id: 'ali', name: 'Ali Soliman', role: 'Tech Lead @ Applied AI @ Microsoft', topic: 'Supercharge Your Development Workflow with Agent Skills', photo: photoAli },

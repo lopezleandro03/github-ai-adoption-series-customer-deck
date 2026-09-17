@@ -2,7 +2,7 @@ import React from 'react'
 import { BottomBar, Editable, Slide } from '@deckio/deck-engine'
 import styles from './RickCliSessionSlide.module.css'
 import FloatingLogo from './FloatingLogo.jsx'
-import photoRick from './deck-project-ghcp-runbook-copy-2/data/speakers/Rick.png'
+import photoRick from './deck-project-ghcp-runbook-copy-2/data/speakers/RickVdB.jpg'
 
 export default function RickCliSessionSlide({ index, project }) {
   return (
